@@ -1,4 +1,36 @@
-.full-height {
-    height: 70vh;
+body {
+    background-color: #0a192f;
+    color: white;
+    font-family: Arial, sans-serif;
 }
 
+.custom-bg {
+    background-color: #0a192f !important;
+    color: white;
+}
+
+.full-height {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgba(10, 25, 47, 0.9) !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #64ffda !important;
+}
+
+.custom-footer {
+    background-color: #112240;
+}
